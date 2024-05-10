@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>蟻力手作工作</title>
+    <title>蟻窩瘋手作工作</title>
     <link rel="stylesheet" href="styles.css">
     <script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
     <!-- 添加 Google Sheets API JavaScript 文件 -->
@@ -11,28 +11,6 @@
     <!-- 0227測試 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <!-- 0227測試 -->
-
-    <!-- LINE Tag Base Code -->
-        <!-- Do Not Modify -->
-        <script>
-        (function(g,d,o){
-          g._ltq=g._ltq||[];g._lt=g._lt||function(){g._ltq.push(arguments)};
-          var h=location.protocol==='https:'?'https://d.line-scdn.net':'http://d.line-cdn.net';
-          var s=d.createElement('script');s.async=1;
-          s.src=o||h+'/n/line_tag/public/release/v1/lt.js';
-          var t=d.getElementsByTagName('script')[0];t.parentNode.insertBefore(s,t);
-            })(window, document);
-        _lt('init', {
-          customerType: 'account',
-          tagId: 'c670e40d-cc7b-4f8a-85f1-9decdeab3ad5'
-        });
-        _lt('send', 'pv', ['c670e40d-cc7b-4f8a-85f1-9decdeab3ad5']);
-        </script>
-        <noscript>
-          <img height="1" width="1" style="display:none"
-               src="https://tr.line.me/tag.gif?c_t=lap&t_id=c670e40d-cc7b-4f8a-85f1-9decdeab3ad5&e=pv&noscript=1" />
-        </noscript>
-    <!-- End LINE Tag Base Code -->
 
     <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -50,26 +28,19 @@
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     
-    <!-- LINE Tag Manager (noscript) -->
-    <script>
-        _lt('send', 'cv', {
-          type: 'Conversion'
-        },['c670e40d-cc7b-4f8a-85f1-9decdeab3ad5']);
-    </script>
-
     
-    <!-- 登录屏幕 -->
+    <!-- 登錄螢幕 -->
     <div id="login-screen" class="screen">
         <img src="ants_start.png" alt="登入" onclick="startGame()">
     </div>
 
-    <!-- 游戏屏幕 -->
+    <!-- 遊戲螢幕 -->
     <div id="game-screen" class="screen" style="display: none;">
         <div id="user-info">
             <img id="pictureUrl" src="" alt="Profile Picture" />
             <span id="displayName"></span>
         </div>
-        <h1>蟻力手作工坊</h1>
+        <h1>蟻窩瘋手作工坊</h1>
         <div id="drink-options" class="button-group">
             <button onclick="addIngredient('奶茶', '#d32f2f'); recordUserAction('奶茶')">奶茶</button>
             <button onclick="addIngredient('紅茶', '#388e3c'); recordUserAction('紅茶')">紅茶</button>
