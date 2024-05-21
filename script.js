@@ -1,6 +1,6 @@
 // liff.init 初始化
 liff.init({
-    liffId: '2002831974-oaMLXlv9' // 請替換為您的 LIFF ID
+    liffId: '2005279145-jl27NGnw' // 請替換為您的 LIFF ID
 }).then(() => {
     if (!liff.isLoggedIn()) {
         // 用戶未登錄，顯示登錄屏幕
