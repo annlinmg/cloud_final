@@ -2,14 +2,9 @@
   "name": "your-static-website",
   "version": "1.0.0",
   "scripts": {
-    "build": "echo 'Building the project...'"
+    "build": "npm run-script build"
   },
   "dependencies": {
     "@line/liff": "^2.23.1"
   }
 }
-
-
-
-
-
